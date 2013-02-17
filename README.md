@@ -16,10 +16,6 @@ Options:
 
 <img src="http://mapmeld.github.com/bluescreen-gif/olpcproblems.gif"/>
 
-<strong>With bluescreen background</strong>
-
-<img src="http://mapmeld.github.com/bluescreen-gif/firstgif.gif"/>
-
 <strong>With bluescreen in photo</strong>
 
 <img src="http://mapmeld.github.com/bluescreen-gif/thirdgif.gif"/>
