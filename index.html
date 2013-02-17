@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+  <title>BlueScreen GIF</title>
+  <link href="stylesheets/bootstrap-mini.css" rel="stylesheet" type="text/css"/>
+  <link href='stylesheets/displaymap.css' rel='stylesheet' type='text/css'/>
+  <script type="text/javascript" src="scripts/jquery-1.7.1.min.js"></script>
+  <script type="text/javascript" src="photobooth-js/photobooth_min.js"></script>
+  <script type="text/javascript" src="jsgif-master/LZWEncoder.js"></script>
+  <script type="text/javascript" src="jsgif-master/NeuQuant.js"></script>
+  <script type="text/javascript" src="jsgif-master/GIFEncoder.js"></script>
+  <script type="text/javascript" src="jsgif-master/b64.js"></script>
+  <script type="text/javascript" src="scripts/displaymap.js"></script>
+</head>
+<body>
+  <h2>BlueScreenGIF</h2>
+  <br/>
+  <a id="startbtn" class="btn btn-large btn-success" href="#" onclick="startMe()">
+    Start GIFing!
+  </a>
+  <br/>
+  <br/>
+  <h3>Options</h3>
+  <div id="side">
+    <h4 class="nobg">No Background</h4>
+    <p class="nobg">Click above to make GIF now!</p>
+    <h4>Background</h4>
+    <p>Drop an image onto this page to add a background.</p>
+    <h4>Blue Screen</h4>
+    <p>A blue shirt or towel will turn transparent on camera.
+      <a id="toggleBlue" href="#" onclick="blueToggle()">Switch off</a>
+    </p>
+    <br/>
+    <h4>Open Source</h4>
+    <p>This project is <a href="http://github.com/mapmeld/bluescreen-gif">on GitHub</a>!</p>
+    <p>Thanks so much to:
+      <ul>
+        <li>
+          <a href="https://github.com/antimatter15">antimatter15</a> for <a href="https://github.com/antimatter15/jsgif">jsgif</a>
+        </li>
+        <li>
+          <a href="https://github.com/wolframhempel">Wolfram Hempel</a> for <a href="http://wolframhempel.github.com/photobooth-js">photobooth.js</a>
+        </li>
+        <li>jQuery &amp; Bootstrap</li>
+      </ul>
+    </p>
+    <h4>Made by</h4>
+    <a href="http://twitter.com/mapmeld">@mapmeld</a>
+  </div>
+  <br/>
+  <div id="cornercam">
+    <img id="background"/>
+    <div id="nightcam"></div>
+  </div>
+</body>
+</html>

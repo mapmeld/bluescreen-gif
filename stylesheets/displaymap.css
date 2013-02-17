@@ -1,0 +1,32 @@
+html, body{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+body {
+  margin:0;
+  padding:15px;
+  font-family: arial, sansserif;
+  border: 5px solid #444;
+  background-color: #f0f0f0;
+}
+#nightcam{
+  height: 200px;
+}
+.photobooth ul{
+  display: none;
+}
+#side{
+  width: 17%;
+}
+#cornercam{
+  position: absolute;
+  left: 35%;
+  top: 22%;
+  width: 300px;
+}
+.greencam{
+  position: absolute;
+  left: 22%;
+  top: 10%;
+}
